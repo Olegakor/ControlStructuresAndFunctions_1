@@ -39,4 +39,4 @@ fun getHourForm(hours: Int): String {
         hours % 10 in 2..4 && (hours % 100 < 10 || hours % 100 > 20) -> "часа"
         else -> "часов"
     }
-} add
+}
